@@ -1,8 +1,10 @@
-# React + Vite
+# Demo of React.js + Firebase Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this project,
+1. clone or download this project
+2. using terminal, go to the project directory e.g. 'cd react-fullstack-workshop'
+3. 'npm i' to install all required packages
+4. 'npm run dev' to start the server
+5. navigate to localhost:5173 (or whatever port assigned) to view the site
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+P.S. you need nodejs installed
