@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #f0f0f5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: #007aff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.portfolio-introduction {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.strengths-weaknesses {
+  width: 100%;
+  max-width: 600px;
+}
+
+.collapsible-section {
+  margin-bottom: 10px;
+}
+
+.collapsible {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.collapsible:hover {
+  background-color: #005bb5;
+}
+
+.content {
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #888;
+}
+/* Add this to your existing App.css file */
+
+.google-signin {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.google-signin:hover {
+  background-color: #357ae8;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
